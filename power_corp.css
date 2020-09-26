@@ -1,0 +1,80 @@
+*{
+ font-family: fantasy;
+}
+
+footer{
+   background-color:black;
+   color: white;
+}
+
+h1{
+   background-color: navy;
+   color: white;
+   position: fixed;
+   text-align: center;
+   width: 1300px;
+   font-size: 50px;
+   padding: 50px;
+   margin-top:-7px;
+}
+h1:hover{
+   background-color: purple;
+   color: white;
+   position: fixed;
+   text-align: center;
+   width: 1300px;
+   font-size: 50px;
+   animation-name: color-change;
+   animation-duration: 10s;
+   animation-timing-function: ease;
+}
+@keyframes color-change{
+   0%{
+      color: blue;
+      background-color: tomato;
+   }
+   80%{
+      color: orange;
+      background-color: red;
+
+   }
+   100%{
+      color: violet;
+      background-color: yellow;
+
+   }
+}
+body{
+  font-size: 20px;
+}
+
+h2{
+   text-align: right;
+}
+
+a{
+  text-decoration: none;
+  color:navy;
+}
+
+.help_bar{
+  padding-left:102px;
+}
+
+ol{
+   color: black;
+}
+
+.navbar{
+   display: inline;
+   padding-left: 20px;
+   font-size: 30px;
+}
+
+.navbar:hover{
+   display: inline;
+   padding-left: 20px;
+   font-size: 30px;
+   background-color: chartreuse;
+   border: 1px solid black;
+}
